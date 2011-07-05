@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name              = 'jugyo-gollum'
-  s.version           = '1.3.0'
+  s.version           = '1.3.1'
   s.date              = '2011-07-06'
   s.rubyforge_project = 'jugyo-gollum'
 
