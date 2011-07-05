@@ -3,10 +3,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.rubygems_version = '1.3.5'
 
-  s.name              = 'gollum'
+  s.name              = 'jugyo-gollum'
   s.version           = '1.3.0'
-  s.date              = '2011-04-25'
-  s.rubyforge_project = 'gollum'
+  s.date              = '2011-07-06'
+  s.rubyforge_project = 'jugyo-gollum'
 
   s.summary     = "A simple, Git-powered wiki."
   s.description = "A simple, Git-powered wiki with a sweet API and local frontend."
@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
 
   s.require_paths = %w[lib]
 
-  s.executables = ["gollum"]
+  s.executables = ["jugyo-gollum"]
 
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
 
-  s.add_dependency('grit', "~> 2.4.1")
+  s.add_dependency('jugyo-grit', "~> 2.4.2")
   s.add_dependency('github-markup', [">= 0.4.0", "< 1.0.0"])
   s.add_dependency('albino', "~> 1.3.2")
   s.add_dependency('sinatra', "~> 1.0")
@@ -46,9 +46,9 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
-    bin/gollum
+    bin/jugyo-gollum
     docs/sanitization.md
-    gollum.gemspec
+    jugyo-gollum.gemspec
     lib/gollum.rb
     lib/gollum/albino.rb
     lib/gollum/blob_entry.rb
